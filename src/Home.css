@@ -1,0 +1,41 @@
+.home {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.profile {
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.avatar {
+    flex: none;
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: 10%;
+    box-shadow: -18px 17px 12px -11px #03188d83;
+    -webkit-box-shadow: -18px 17px 12px -11px #03188d83;
+    -moz-box-shadow: -18px 17px 12px -11px #03188d83;
+    background-image: url("./profile.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.intro {
+    margin-left: 5%;
+    padding: 50px;
+    text-align: left;
+}
+
+.sub-intro{
+    color: rgb(170, 170, 170);
+}
+
+.colors {
+    background-color: #ffffff, #91bece, #227c9d, #1da0a8, #17c3b2, #8b9893, #fe6d73, #b16369, #63585e
+}
