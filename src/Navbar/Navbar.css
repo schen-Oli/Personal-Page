@@ -21,6 +21,7 @@
   margin-left: 20px;
   text-decoration: none;
   padding: 6px;
+  transition: 300ms ease-in;
 }
 .navbar a:hover {
   color: #17C3B2;
