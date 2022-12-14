@@ -1,0 +1,32 @@
+/* #ffffff, #91bece, #227c9d, #1da0a8, #17c3b2, #8b9893, #fe6d73, #b16369, #63585e */
+
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 90%;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.navbar h1 {
+  color: #17C3B2;
+  font-size: xx-large;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #17C3B2;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
