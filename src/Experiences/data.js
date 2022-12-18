@@ -1,10 +1,8 @@
-
-
 let sde_internships = [
     {
         id : 1,
         company : "Apple Inc.",
-        logo : "",
+        abbr : "apple",
         time : "May. 2022 – Aug. 2022",
         title : "Software Engineer Intern",
         location : "Sunnyvale, California",
@@ -18,7 +16,7 @@ let sde_internships = [
     {
         id : 2,
         company : "YBF Center",
-        logo : "",
+        abbr : "ybf",
         time : "Jun. 2021 – Aug. 2021",
         title : "Software Engineer Intern",
         location : "Shandong, China",
