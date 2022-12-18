@@ -1,0 +1,101 @@
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #17c3b2;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.Education {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.Education h1 {
+    /* font-family: "Quicksand";*/
+    font-family: 'Rubik', sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.educations-container {
+    margin-bottom: 50px;
+}
+
+.school-container {
+    padding: 20px;
+    font-family: "Quicksand";
+    display: flex;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center middle;
+    border-radius: 30px;
+    margin-right: 50px;
+}
+
+#usc {
+    background-image: url('./usclogo.jpg');
+
+}
+
+#unnc {
+    background-image: url('./unnc.jpg');
+}
+
+.school-info {
+    line-height: 25px;
+}
+
+.school-name {
+    font-family: 'Rubik', sans-serif;
+}
+
+.school-time h4 {
+    color: rgb(140, 140, 140);
+}
+
+.test-container {
+    padding: 20px;
+    padding-top: 0;
+    font-family: "Quicksand";
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.test-name {
+    font-family: 'Rubik', sans-serif;
+}
+
+.test-date {
+    color: rgb(140, 140, 140);
+}
+
+.test-total {
+    margin-bottom: 10px;
+}
+
+.skill-container {
+    padding: 20px;
+    padding-top: 0;
+    font-family: "Quicksand";
+    line-height: 30px;
+    margin-bottom: 40px;
+
+}
+
+.skill-container h3 {
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+}
