@@ -1,5 +1,5 @@
 .Experiences{
-    max-width: 80%;
+    max-width: 1000px;
     margin: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -13,7 +13,7 @@
 }
 
 .internship-container{
-    width: 90%;
+    width: 80%;
     padding: 30px;
     font-family: "Quicksand";
     display: flex;

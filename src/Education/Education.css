@@ -27,12 +27,43 @@ hr {
     margin-bottom: 50px;
 }
 
-.school-container {
-    padding: 20px;
+.school-container{
+    display: block;
     font-family: "Quicksand";
+    line-height: 25px;
+}
+
+.basic-info-container {
+    padding: 20px;
     display: flex;
+    margin-top: 30px;
     margin-bottom: 10px;
     text-align: left;
+    border-radius: 40px;
+    transition: 1s ease-in-out;
+}
+
+.courses-container{
+    margin: 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+}
+
+.courses-container li{
+    color: rgb(140, 140, 140);
+}
+
+.school-container:hover{
+    cursor: pointer;
+}
+
+.school-container:hover .courses-container{
+    max-height: 1000px;
+}
+
+.school-container:hover .basic-info-container{
+    background-color:#91bece;
 }
 
 .logo {
@@ -52,10 +83,6 @@ hr {
 
 #unnc {
     background-image: url('./unnc.jpg');
-}
-
-.school-info {
-    line-height: 25px;
 }
 
 .school-name {

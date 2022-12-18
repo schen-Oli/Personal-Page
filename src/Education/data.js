@@ -7,7 +7,20 @@ let education = [
         major : "Master of Science in Computer Science",
         gpa : "3.8/4.0",
         location : "Los Angeles, California",
-        logo : "./usclogo.jpg"
+        logo : "./usclogo.jpg",
+        courses : [
+            "Analysis of Algorithms",
+            "Advanced Mobile Devices and Game Consoles",
+            "Introduction to Programming Systems Design",
+            "Information Retrieval and Web Search Engines",
+            "Introduction to Computer Networks",
+            "Internship in Engineering with Professional Writing and Communication",
+            "Database Systems",
+            "Web Technologies",
+            "Operating Systems",
+            "Foundations of Artificial Intelligence",
+            "Computer Science Research Colloquium"
+        ]
     },
     {
         id : 2,
@@ -17,7 +30,22 @@ let education = [
         major : "Bachelor of Engineering (Honours) in Mechanical Engineering",
         gpa : "3.9/4.0",
         location : "Ningbo, China & Nottingham, UK",
-        logo : ""
+        logo : "",
+        courses : [
+            "Advanced Mathematical Techniques in ODEs for Engineers",
+            "Computer Aided engineering",
+            "Computer Modelling Techniques",
+            "C++ Programing",
+            "controt and instrumentation",
+            "Engineering Management",
+            "Advanced Mathematics and Statistics for Mechanical Engineers",
+            "Materials in Design",
+            "Dynamics and control",
+            "Thermodynamics & Fluid Mechanics",
+            "Mechanics of Solids",
+            "Electromechanical Devices",
+            "Statics and Dynamics",
+        ]
     }
 ];
 
