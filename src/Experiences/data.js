@@ -27,8 +27,62 @@ let sde_internships = [
     },
 ]
 
+let volunteer = [
+    {
+        id : 1,
+        url : "https://ihfonline.org",
+        company : "International Humanity Foundation",
+        role : "Teaching Assistant",
+        time: "Jul. 2017 - Aug. 2017",
+        location: "Jakarta, Indonesia",
+        details : "Taught English, Math, Science, and Chinese in a local non-profit educational institution."
+    }
+]
+
+let other_internships = [
+    {
+        id : 1,
+        company : "LuxCreo Inc.",
+        abbr : "lux",
+        time : "Jun. 2018 - Sep. 2018",
+        title : "Mechanical Engineer Intern",
+        location : "Zhejiang, China",
+        details : [
+            "Designed 3D models using SOLIDWORKS based on customer's requirement. Added support trees for the models to minimize collapse.",
+            "Analyzed the mechanical properties of the designed structures using Finite Element Analysis.",
+            "Assisted control and test the Ultra High Speed Light-Cured 3D Printers."
+        ]
+    },
+    {
+        id : 2,
+        company : "Nottingham University Business School",
+        abbr : "nubs",
+        time : "Jun. 2017 - Jul. 2021",
+        title : "Marketing Intern",
+        location : "Zhejiang, China",
+        details : [
+            "Designed posters, brochures, souvenirs and other related products for Nottingham University Business School.",
+            "Assisted with photography, interview, and coordination during academic conference."
+        ]
+    },
+    {
+        id : 3,
+        company : "Nottingham City Council",
+        abbr : "ncc",
+        time : "Jan. 2017 - Jan. 2018",
+        title : "Marketing Intern",
+        location : "Zhejiang, China",
+        details : [
+            "Translated over 20 awarded short films of Nottingham International Microfilm Festival to Chinese and added subtitles using Adobe Premiere.",
+            "Managed the official account of Nottingham City Council on Youku and iQiyi.",
+            "Assisted on the contenct creation of the official wechat account of Nottingham City Council."
+        ]
+    }
+]
+
 const data = {
     sde_internships,
-    
+    volunteer,
+    other_internships
 }
 export default data;

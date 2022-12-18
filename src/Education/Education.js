@@ -9,7 +9,7 @@ const Education = () => {
 
     return (
         <div className="Education">
-            <h1>Education</h1>
+            <h1 id="edu-first-title">Education</h1>
             <div className="educations-container">
                 {educations.map((education) => (
                     <div className="school-container" key={'school' + education.id}>

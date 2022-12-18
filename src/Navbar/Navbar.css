@@ -13,21 +13,42 @@
 .navbar h1 {
   color: #17C3B2;
   font-size: xx-large;
+  padding: 20px;
 }
+
+.navbar h1 a{
+  text-decoration: none;
+}
+
 .navbar .links {
   margin-left: auto;
 }
-.navbar a {
+
+.links a {
   margin-left: 20px;
   text-decoration: none;
-  padding: 6px;
-  transition: 500ms ease-out;
+  padding:10px;
+  border-radius: 10px;
+  border: 2px solid white;
+  transition: 300ms ease;
 }
-.navbar a:hover {
-  color: #17C3B2;
+
+.links a:hover {
+  border: 2px solid #17C3B2;
+  color:#17C3B2;
 }
 .content {
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
+}
+
+.active{
+  background-color: #17C3B2;
+  border: 2px solid #17C3B2;
+  color:white;
+}
+
+a.active:hover{
+  color:white;
 }
