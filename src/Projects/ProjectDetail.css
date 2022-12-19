@@ -1,0 +1,80 @@
+.Project-Detail {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.profile-detail-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.return-btn ion-icon {
+    font-size: xx-large;
+}
+
+.return-btn ion-icon:hover {
+    color: #17C3B2;
+}
+
+.project-github {
+    padding: 20px;
+}
+
+.project-github ion-icon:hover {
+    color: #17C3B2;
+}
+
+.project-detail-image {
+    flex: none;
+    width: 40%;
+    aspect-ratio: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+
+.project-detail-info {
+    padding: 30px;
+    padding-top: 0;
+    text-align: left;
+    font-family: "Quicksand";
+    margin-left: 20px;
+    line-height: 40px;
+}
+
+.project-detail-name {
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 20px;
+}
+
+.project-detail-intro {
+    color: rgb(140, 140, 140);
+}
+
+li span {
+    color: rgb(140, 140, 140);
+}
+
+.project-detail-info ul {
+    padding-inline-start: 20px;
+}
+
+.project-detail-detail {
+    line-height: 25px;
+    padding-top: 30px;
+}
+
+#project-detail-me {
+    background-image: url('./Assets/me-detail.png');
+}
+
+#project-detail-cae {
+    background-image: url('./Assets/cae-detail.png');
+}
+
+#project-detail-usc-reg {
+    background-image: url('./Assets/socket-detail.png');
+}

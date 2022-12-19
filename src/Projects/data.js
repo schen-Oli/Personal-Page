@@ -13,7 +13,8 @@ let projects = [
             "Web App - A responsive website using Angular and Bootstrap that allows user to\
          fetch information about movies and TV shows by making AJAX calls to the proxy server.",
             "iOS App - An iOS app corresponding to the web application, using SwiftUI."
-        ]
+        ],
+        readme: "/README.md"
     },
     {
         id: "2",
