@@ -1,0 +1,24 @@
+.contact{
+    padding-top: 30vh;
+}
+
+.contact-container{
+    width: 40%;
+    height: 64px;
+    padding: 20px;
+    border-radius: 52px;
+    border: 3px #17C3B2 solid;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ion-icon{
+    font-size: 64px;
+    transition: 300ms ease;
+}
+
+ion-icon:hover{
+    transform: scale(1.05);
+    color: #fe6d73;
+}

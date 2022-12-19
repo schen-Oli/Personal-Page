@@ -112,8 +112,9 @@ h4{
     text-align: left;
     border-radius: 30px;
     line-height: 25px;
+    border: 0px solid #ffffff;
     border-bottom: 5px solid #fe6d73;
-    transition: 500ms ease;
+    transition: 500ms ease-in-out;
 }
 
 .volunteer-company{

@@ -1,0 +1,71 @@
+.projects-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+.project-container{
+    width: 30%;
+    min-width: 200px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+    font-family: "Quicksand";
+    text-align: left;
+    text-decoration: none !important;
+    transition: 500ms ease;
+}
+
+.project-container:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.project-title{
+    font-family: 'Rubik', sans-serif;
+    line-height: 30px;
+}
+
+.project-pic{
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 30px;
+    background-position: top middle;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 8px solid #17C3B2;
+    transition: 500ms ease;
+}
+
+.project-container:hover .project-pic{
+    border-bottom: 8px solid #fe6d73;
+}
+
+.project-text-container{
+    padding: 20px;
+    line-height: 25px;
+}
+
+/* socket programming */
+#project-usc-reg{
+    background-image: url('./Assets/socket.png');
+}
+
+#project-me{
+    background-image: url('./Assets/me.png');
+}
+
+#project-cae{
+    background-image: url('./Assets/cae.png');
+}
+
+@media screen and (max-width: 976px){
+    .project-container{
+        width: 40%;
+    }
+}
