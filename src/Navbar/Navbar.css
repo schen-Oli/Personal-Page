@@ -97,7 +97,7 @@ a.active:hover {
     transition: 400ms ease-in-out;
   }
 
-  .links.active{
+  .links.expand{
     right: 0;
     border: none;
   }

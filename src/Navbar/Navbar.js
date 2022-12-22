@@ -16,7 +16,7 @@ class Navbar extends Component {
         return (
             <nav className="navbar">
                 <h1><a href="/">Oli Chen</a></h1>
-                <div className={ this.state.clicked ? "links active" : "links"}>
+                <div className={ this.state.clicked ? "links expand" : "links"}>
                     <NavLink to="/" exact={true} className={({ isActive }) =>
                         isActive ? this.activeClassName : undefined
                     }>Home</NavLink>
