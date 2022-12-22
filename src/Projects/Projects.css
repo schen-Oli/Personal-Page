@@ -73,8 +73,34 @@
     background-image: url('./Assets/cae.png');
 }
 
-@media screen and (max-width: 976px){
+@media screen and (max-width: 1130px){
     .project-container{
-        width: 40%;
+        width: 45%;
     }
+
+    .projects-container{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    .project-container{
+        width: 100%;
+        min-width: 200px;
+        margin-top: 50px;
+        margin-left: 15px;
+        margin-right: 15px;
+        border-radius: 30px;
+        font-family: "Quicksand";
+        text-align: left;
+        text-decoration: none !important;
+        transition: 500ms ease;
+    }
+    
 }

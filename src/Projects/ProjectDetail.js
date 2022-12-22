@@ -22,7 +22,11 @@ const ProjectDetail = () => {
 
     return (
         <div className="Project-Detail">
-            <Link to="/projects" className="return-btn"><ion-icon name="arrow-back-circle"></ion-icon></Link>
+            <Link to="/projects" className="return-btn">
+                <div className="return-btn-container">
+                    <ion-icon name="arrow-back-circle"></ion-icon>
+                </div>
+            </Link>
             <div className="profile-detail-container">
                 <div className="project-detail-image" id={'project-detail-' + project.abbr}></div>
                 <div className="project-detail-info">
@@ -45,6 +49,8 @@ const ProjectDetail = () => {
                     </ul>
                 </div>
             </div>
+
+<hr class="mobile-only"></hr>
 
             {
                 project.video &&

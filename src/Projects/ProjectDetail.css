@@ -4,6 +4,9 @@
     margin-right: auto;
     text-align: left;
 }
+.mobile-only{
+    display: none;
+}
 
 .profile-detail-container {
     margin-top: 20px;
@@ -55,7 +58,7 @@ li span {
     padding-inline-start: 20px;
 }
 
-.video-container{
+.video-container {
 
     text-align: left;
     width: 80%;
@@ -64,7 +67,7 @@ li span {
     padding-bottom: 50px;
 }
 
-.demo-title{
+.demo-title {
     font-family: 'Rubik', sans-serif;
     padding-bottom: 30px;
     padding-top: 30px;
@@ -74,6 +77,7 @@ li span {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
 }
 
 .project-detail-content-container ion-icon {
@@ -116,4 +120,25 @@ li span {
 
 #project-detail-usc-reg {
     background-image: url('./Assets/socket-detail.png');
+}
+
+@media only screen and (max-width: 900px) {
+    .profile-detail-container {
+        flex-direction: column;
+    }
+
+    .project-detail-image {
+        width: 100%;
+        aspect-ratio: 16/9;
+        background-size: cover;
+    }
+
+    .return-btn-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mobile-only{
+        display: block;
+    }
 }

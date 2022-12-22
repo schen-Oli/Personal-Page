@@ -43,7 +43,6 @@
 }
 
 .internship-container:hover{
-    cursor: pointer;
     border: 5px solid #17C3B2;
     transform: scale(1.05);
 }
@@ -123,7 +122,31 @@ h4{
 }
 
 .volunteer-container:hover{
-    cursor: pointer;
     transform: scale(1.05);
     border: 5px solid #fe6d73;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .Experiences{
+        width: 80%;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    #firstExperiencesH1{
+        padding-top: 0;
+    }
+
+    .internship-container:hover{
+        transform: none;
+    }
+
+    .volunteer-container:hover{
+        transform: none;
+    }
+    
+    .Experiences h1{
+        padding-top: 10px;
+    }
 }

@@ -25,6 +25,7 @@
     background-image: url("./profile.jpg");
     background-size: cover;
     background-position: center;
+    transition: 500ms ease-in-out;
 }
 
 .intro {
@@ -65,4 +66,19 @@
 
 .colors {
     background-color: #ffffff, #91bece, #227c9d, #1da0a8, #17c3b2, #8b9893, #fe6d73, #b16369, #63585e
+}
+
+@media only screen and (max-width: 900px){
+    .avatar {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        position: absolute;
+        top: 120px;
+        left: 80px;
+    }
+
+    .intro {
+        margin-top: 10px;
+    }
 }

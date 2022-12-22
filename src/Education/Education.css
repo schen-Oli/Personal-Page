@@ -23,7 +23,7 @@ hr {
     margin-top: 50px;
 }
 
-#edu-first-title{
+#edu-first-title {
     margin-top: 20px;
 }
 
@@ -31,7 +31,7 @@ hr {
     margin-bottom: 50px;
 }
 
-.school-container{
+.school-container {
     display: block;
     font-family: "Quicksand";
     line-height: 25px;
@@ -48,28 +48,27 @@ hr {
     transition: 500ms ease-in-out;
 }
 
-.courses-container{
+.courses-container {
     margin: 20px;
     max-height: 0;
     overflow: hidden;
     transition: 500ms ease-in-out;
 }
 
-.courses-container li{
+.courses-container li {
     color: rgb(140, 140, 140);
 }
 
-.school-container:hover{
-    cursor: pointer;
+.school-container:hover {
     transform: scale(1.05);
 }
 
-.school-container:hover .courses-container{
+.school-container:hover .courses-container {
     max-height: 1000px;
 }
 
-.school-container:hover .basic-info-container{
-    background-color:rgb(240, 240, 240);
+.school-container:hover .basic-info-container {
+    background-color: rgb(240, 240, 240);
 }
 
 .logo {
@@ -80,6 +79,7 @@ hr {
     background-position: center middle;
     border-radius: 25px;
     margin-right: 50px;
+    transition: 500ms ease-in-out;
 }
 
 #usc {
@@ -131,4 +131,35 @@ hr {
 .skill-container h3 {
     margin-top: 20px;
     font-family: 'Rubik', sans-serif;
+}
+
+@media only screen and (max-width: 900px) {
+    .Education {
+        width: 80%;
+        padding-top: 0;
+    }
+
+    .basic-info-container{
+        flex-direction: column;
+    }
+
+    #edu-first-title{
+        margin: 0;
+    }
+
+    .logo{
+        border-radius: 50px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        box-shadow: -10px 10px 20px -10px rgba(140, 140, 140, 0.5);
+        -webkit-box-shadow: -10px 10px 20px -10px rgba(140, 140, 140, 0.5);
+        -moz-box-shadow: -10px 10px 20px -10px rgba(140, 140, 140, 0.5);
+    }
+
+    .basic-info-container {
+        margin: 0;
+        margin-top: 10px;
+        padding: 20px;
+        padding-left: 40px;
+    }
 }

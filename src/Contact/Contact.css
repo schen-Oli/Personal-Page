@@ -23,3 +23,17 @@ ion-icon:hover{
     transform: scale(1.05);
     color: #fe6d73;
 }
+
+@media only screen and (max-width: 900px) {
+    .contact-container{
+        flex-direction: column;
+        width: 64px;
+        height: 400px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .contact{
+        padding-top:100px;
+    }
+}
