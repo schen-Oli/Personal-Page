@@ -44,6 +44,10 @@ function App() {
               <ProjectDetail />
             </Route>
 
+            <Route exact path='*'>
+              <Home />
+            </Route>
+
           </Switch>
 
         </div>

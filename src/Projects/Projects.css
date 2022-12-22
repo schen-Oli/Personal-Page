@@ -3,7 +3,7 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    justify-content:space-between;
+    justify-content:left;
     flex-wrap:wrap;
 }
 
@@ -11,8 +11,8 @@
     width: 30%;
     min-width: 200px;
     margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
     border-radius: 30px;
     font-family: "Quicksand";
     text-align: left;
@@ -56,8 +56,17 @@
     background-image: url('./Assets/socket.png');
 }
 
-#project-me{
+#project-me-front{
     background-image: url('./Assets/me.png');
+}
+
+#project-me-ios{
+    background-image: url('./Assets/me-ios.png');
+}
+
+
+#project-me-back{
+    background-image: url('./Assets/me-back.png');
 }
 
 #project-cae{

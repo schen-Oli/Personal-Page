@@ -1,6 +1,7 @@
 import './ProjectDetail.css';
 import { useParams } from "react-router-dom";
 import { Link } from 'react-router-dom';
+import YouTube from 'react-youtube';
 import data from './data';
 
 const ProjectDetail = () => {
@@ -13,12 +14,21 @@ const ProjectDetail = () => {
     }
     skills = skills.substring(0, skills.length - 2);
 
+    const opts = {
+        height: '390',
+        width: '640',
+    };
+
+
     return (
         <div className="Project-Detail">
             <Link to="/projects" className="return-btn"><ion-icon name="arrow-back-circle"></ion-icon></Link>
             <div className="profile-detail-container">
                 <div className="project-detail-image" id={'project-detail-' + project.abbr}></div>
                 <div className="project-detail-info">
+                    <a href={project.url} target="_blank" className="github-logo-container">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
 
                     <div className="project-detail-name-container flexline">
                         <div className="project-detail-sub-container">
@@ -26,18 +36,39 @@ const ProjectDetail = () => {
                             <h1 className="project-detail-name"> {project.name} </h1>
                         </div>
 
-                        <a href="https://github.com/schen-Oli" className="project-github" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+
                     </div>
 
                     <ul>
                         <li><h3 className="project-time"> Date: <span>{project.time} </span></h3></li>
                         <li><h3 className="project-skills"> Skills: <span>{skills}</span> </h3></li>
                     </ul>
-                    <h4 className="project-detail-detail"> {project.details} </h4>
-
                 </div>
             </div>
-           
+
+            {
+                project.video &&
+                <div className="video-container">
+                    <h1 className="demo-title">Demo</h1>
+                    <YouTube videoId={project.video} opts={opts} />
+                </div>
+            }
+
+            <div className="project-detail-content-container">
+                {
+                    project.details.map((detail, index) => (
+                        <div className="project-detail-content" key={project.id + 'detail' + index}>
+                            {detail}<br></br><br></br>
+                        </div>
+                    ))
+
+                }
+
+                <a href={project.url} target="_blank" className="github-logo-container">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+            </div>
+
         </div>
     );
 }

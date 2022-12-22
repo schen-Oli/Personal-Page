@@ -19,18 +19,11 @@
     color: #17C3B2;
 }
 
-.project-github {
-    padding: 20px;
-}
-
-.project-github ion-icon:hover {
-    color: #17C3B2;
-}
-
 .project-detail-image {
     flex: none;
-    width: 40%;
+    width: 50%;
     aspect-ratio: 1;
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 30px;
@@ -38,10 +31,10 @@
 
 .project-detail-info {
     padding: 30px;
-    padding-top: 0;
+    margin: auto;
+    margin-left: 20px;
     text-align: left;
     font-family: "Quicksand";
-    margin-left: 20px;
     line-height: 40px;
 }
 
@@ -62,13 +55,59 @@ li span {
     padding-inline-start: 20px;
 }
 
-.project-detail-detail {
-    line-height: 25px;
+.video-container{
+
+    text-align: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.demo-title{
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 30px;
     padding-top: 30px;
 }
 
-#project-detail-me {
+.project-detail-content-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-detail-content-container ion-icon {
+    color: rgb(140, 140, 140);
+}
+
+.project-detail-content {
+    font-family: "Quicksand";
+    line-height: 35px;
+    color: rgb(140, 140, 140);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.github-logo-container {
+    width: 60px;
+    height: 60px;
+}
+
+.github-logo-container:hover ion-icon {
+    color: #17C3B2;
+    transform: scale(1.05);
+}
+
+#project-detail-me-back {
+    background-image: url('./Assets/me-back-detail.png');
+}
+
+#project-detail-me-front {
     background-image: url('./Assets/me-detail.png');
+}
+
+#project-detail-me-ios {
+    background-image: url('./Assets/me-ios-detail.png');
 }
 
 #project-detail-cae {
