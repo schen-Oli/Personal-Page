@@ -12,24 +12,28 @@ class Navbar extends Component {
         this.setState({clicked : !this.state.clicked})
     }
 
+    setUnClick = ()=>{
+        this.setState({clicked : false})
+    }
+
     render() {
         return (
             <nav className="navbar">
                 <h1><a href="/">Oli Chen</a></h1>
                 <div className={ this.state.clicked ? "links expand" : "links"}>
-                    <NavLink to="/" exact={true} className={({ isActive }) =>
+                    <NavLink onClick={this.setUnClick} to="/" exact={true} className={({ isActive }) =>
                         isActive ? this.activeClassName : undefined
                     }>Home</NavLink>
-                    <NavLink to="/education" className={({ isActive }) =>
+                    <NavLink onClick={this.setUnClick} to="/education" className={({ isActive }) =>
                         isActive ? this.activeClassName : undefined
                     }>Education</NavLink>
-                    <NavLink to="/experiences" className={({ isActive }) =>
+                    <NavLink onClick={this.setUnClick} to="/experiences" className={({ isActive }) =>
                         isActive ? this.activeClassName : undefined
                     }>Experiences</NavLink>
-                    <NavLink to="/projects" className={({ isActive }) =>
+                    <NavLink onClick={this.setUnClick} to="/projects" className={({ isActive }) =>
                         isActive ? this.activeClassName : undefined
                     }>Projects</NavLink>
-                    <NavLink to="/contact" className={({ isActive }) =>
+                    <NavLink onClick={this.setUnClick} to="/contact" className={({ isActive }) =>
                         isActive ? this.activeClassName : undefined
                     }>Contact</NavLink>
                 </div>
