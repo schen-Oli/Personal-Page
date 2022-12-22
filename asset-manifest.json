@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.23ad6037.css",
+    "main.js": "/static/js/main.e69a2067.js",
+    "static/media/me-detail.png": "/static/media/me-detail.bb6f80e68f28bcb31559.png",
+    "static/media/cae-detail.png": "/static/media/cae-detail.0343784f63cb657a933d.png",
+    "static/media/me.png": "/static/media/me.170fd97233d402177903.png",
+    "static/media/me-ios-detail.png": "/static/media/me-ios-detail.9f1889fe53c0d66ce4e3.png",
+    "static/media/profile.jpg": "/static/media/profile.d155dabd65c8b1b50cad.jpg",
+    "static/media/me-back-detail.png": "/static/media/me-back-detail.f398fff198e49f3ad25d.png",
+    "static/media/me-ios.png": "/static/media/me-ios.adafafebefdec7b19113.png",
+    "static/media/cae.png": "/static/media/cae.5b7a72b61f2e9e1da0c5.png",
+    "static/media/socket-detail.png": "/static/media/socket-detail.07e97f190cea5ab259e5.png",
+    "static/media/socket.png": "/static/media/socket.0960fcff0908093f9bd7.png",
+    "static/media/me-back.png": "/static/media/me-back.510ccc091ffaa3d05e81.png",
+    "static/media/ybf.jpg": "/static/media/ybf.91602836a383db63cda8.jpg",
+    "static/media/resume.pdf": "/static/media/resume.04677b003d16fffa2a05.pdf",
+    "static/media/unnc.png": "/static/media/unnc.85e912b7ffabdc178bb3.png",
+    "static/media/apple.png": "/static/media/apple.fbbbda06c6d40ba30bd5.png",
+    "static/media/footbg.png": "/static/media/footbg.786f6894dcd5ce9af1b8.png",
+    "static/media/usclogo.jpg": "/static/media/usclogo.22a172a454f02ffa6a55.jpg",
+    "static/media/lux.png": "/static/media/lux.300703f3356869a83f55.png",
+    "static/media/ncc.png": "/static/media/ncc.35d73919c702d1ce82a7.png",
+    "static/media/unnc.jpg": "/static/media/unnc.465250d609eeaaa633ae.jpg",
+    "index.html": "/index.html",
+    "main.23ad6037.css.map": "/static/css/main.23ad6037.css.map",
+    "main.e69a2067.js.map": "/static/js/main.e69a2067.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23ad6037.css",
+    "static/js/main.e69a2067.js"
+  ]
+}
