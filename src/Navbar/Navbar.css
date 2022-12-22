@@ -86,8 +86,10 @@ a.active:hover {
     width: 200px;
     position: absolute;
     top:80px;
-    right: -300px;
-    background-color: white;
+    right: 0;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
     box-shadow: -10px 10px 20px -10px rgba(140, 140, 140, 0.5);
     -webkit-box-shadow: -10px 10px 20px -10px rgba(140, 140, 140, 0.5);
     -moz-box-shadow: -10px 10px 20px -10px rgba(140, 140, 140, 0.5);
@@ -95,17 +97,23 @@ a.active:hover {
     padding: 20px;
     padding-left: 10px;
     transition: 400ms ease-in-out;
+    background-color: rgba(255, 255, 255, 0.459);
+    backdrop-filter: blur(20px);
+    z-index: 100;
   }
 
   .links.expand{
-    right: 0;
+    height: 300px;
     border: none;
+    opacity: 1;
   }
+
   .links a {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
-
+    border: none;
+    border-radius: 10px;
   }
   
   nav button{
