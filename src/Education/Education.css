@@ -80,6 +80,9 @@ hr {
     border-radius: 25px;
     margin-right: 50px;
     transition: 500ms ease-in-out;
+    box-shadow: -10px 10px 20px -10px rgba(140, 140, 140, 0.75);
+    -webkit-box-shadow: -10px 10px 20px -10px rgba(140, 140, 140, 0.75);
+    -moz-box-shadow: -10px 10px 20px -10px rgba(140, 140, 140, 0.75);
 }
 
 #usc {
@@ -151,9 +154,6 @@ hr {
         border-radius: 50px;
         margin-top: 0;
         margin-bottom: 30px;
-        box-shadow: -10px 10px 20px -10px rgba(140, 140, 140, 0.5);
-        -webkit-box-shadow: -10px 10px 20px -10px rgba(140, 140, 140, 0.5);
-        -moz-box-shadow: -10px 10px 20px -10px rgba(140, 140, 140, 0.5);
     }
 
     .basic-info-container {

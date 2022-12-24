@@ -14,6 +14,7 @@
 
 #firstExperiencesH1{
     padding-top: 30px;
+    margin-bottom: 30px;
 }
 
 .internship-container{
@@ -114,6 +115,7 @@ h4{
     border: 0px solid #ffffff;
     border-bottom: 5px solid #fe6d73;
     transition: 500ms ease-in-out;
+    
 }
 
 .volunteer-company{

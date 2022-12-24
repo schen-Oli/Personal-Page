@@ -48,13 +48,13 @@ let projects = [
         abbr: "cae",
         name: "Caelestis",
         intro: "A 2D platformer game",
-        skills: ["C#", "Unity"],
+        skills: ["C#", "Unity", "Game Development"],
         time: "Aug. 2021 – Dec. 2021",
-        pic: "",
+        url: "https://github.com/Saki97/Project_Caelestis",
         details: [
-            "Designed a multi-level 2D platformer game that encourages players to follow the beats and take actions using Unity.",
-            "Developed a shop interface where players can buy items with coins collected during the game.",
-            "Designed a control system that allows the players to use various input devices (Touch Screen, Keyboard, Gamepad).",
+            "Caelestis is a 2D platformer that encourages players to follow the music beats and act. Every time the player hit the beat successfully, there will be some sort of reward.",
+            "I developed a control system that allows the players to use various input devices, including a touch screen, keyboard, and gamepad.",
+            "In addition, I developed several interfaces, including a shop interface where players can buy items with coins collected during the game, and other interfaces such as an entry point interface, a settings page, a pause page, win/lose pages, and a point count mechanism.",
             "Check out my GitHub page for more details. "
         ]
     },
