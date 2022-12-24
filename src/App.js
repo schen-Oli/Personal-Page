@@ -5,7 +5,7 @@ import Footer from './Footer/Footer';
 import Contact from './Contact/Contact';
 import Experiences from './Experiences/Experience';
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Education from './Education/Education';
 import Projects from './Projects/Projects';
 import ProjectDetail from './Projects/ProjectDetail';
