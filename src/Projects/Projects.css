@@ -1,96 +1,106 @@
-.projects-container{
+.Projects {
+    margin-top: 40px;
+}
+
+.projects-container {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    justify-content:left;
-    flex-wrap:wrap;
+    justify-content: left;
+    flex-wrap: wrap;
 }
 
-.project-container{
+.project-container {
     width: 30%;
     min-width: 200px;
-    margin-top: 50px;
-    margin-left: 15px;
+    margin-bottom: 50px;
     margin-right: 15px;
+    margin-left: 15px;
     border-radius: 30px;
     font-family: "Quicksand";
     text-align: left;
     text-decoration: none !important;
     transition: 500ms ease;
+    box-shadow: 0px 0px 40px -19px rgba(140,140,140,0.7);
+    -webkit-box-shadow: 0px 0px 40px -19px rgba(140,140,140,0.7);
+    -moz-box-shadow: 0px 0px 40px -19px rgba(140,140,140,0.7);
+    border: 0px white solid;
+    border-bottom: 8px solid #17C3B2;
 }
 
-.project-container:hover{
+.project-container:hover {
     cursor: pointer;
     transform: scale(1.05);
+    border-bottom: 8px solid #fe6d73;
+    box-shadow: 0px 0px 64px 8px rgba(140,140,140,0.7);
+    -webkit-box-shadow: 0px 0px 64px 8px rgba(140,140,140,0.7);
+    -moz-box-shadow: 0px 0px 64px 8px rgba(140,140,140,0.7);
 }
 
-.project-title{
+.project-title {
     font-family: 'Rubik', sans-serif;
     line-height: 30px;
 }
 
-.project-pic{
-    width: 100%;
+.project-pic {
+    margin: 20px;
+    margin-bottom: 0;
     aspect-ratio: 1;
-    border-radius: 30px;
     background-position: top middle;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    border-bottom: 8px solid #17C3B2;
+    border: 0px solid #17C3B2;
     transition: 500ms ease;
+
 }
 
-.project-container:hover .project-pic{
-    border-bottom: 8px solid #fe6d73;
-}
-
-.project-text-container{
-    padding: 20px;
+.project-text-container {
+    padding: 40px;
     line-height: 25px;
 }
 
 /* socket programming */
-#project-usc-reg{
-    background-image: url('./Assets/socket.png');
+#project-usc-reg {
+    background-image: url('./Assets/socket-detail.png');
 }
 
-#project-me-front{
-    background-image: url('./Assets/me.png');
+#project-me-front {
+    background-image: url('./Assets/me-detail.png');
 }
 
-#project-me-ios{
-    background-image: url('./Assets/me-ios.png');
+#project-me-ios {
+    background-image: url('./Assets/me-ios-detail.png');
 }
 
 
-#project-me-back{
-    background-image: url('./Assets/me-back.png');
+#project-me-back {
+    background-image: url('./Assets/me-back-detail.png');
 }
 
-#project-cae{
-    background-image: url('./Assets/cae.png');
+#project-cae {
+    background-image: url('./Assets/cae-detail.png');
 }
 
-@media screen and (max-width: 1130px){
-    .project-container{
+@media screen and (max-width: 1130px) {
+    .project-container {
         width: 45%;
     }
 
-    .projects-container{
+    .projects-container {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
         display: flex;
-        justify-content:space-between;
-        flex-wrap:wrap;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
 }
 
-@media screen and (max-width: 800px){
-    .project-container{
+@media screen and (max-width: 800px) {
+    .project-container {
         width: 100%;
         min-width: 200px;
         margin-top: 50px;
@@ -102,5 +112,4 @@
         text-decoration: none !important;
         transition: 500ms ease;
     }
-    
 }

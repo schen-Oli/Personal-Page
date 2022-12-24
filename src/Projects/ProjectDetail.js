@@ -15,8 +15,8 @@ const ProjectDetail = () => {
     skills = skills.substring(0, skills.length - 2);
 
     const opts = {
-        height: '390',
-        width: '640',
+        width: '100%',
+        aspectRatio: '16/9'
     };
 
 
@@ -50,13 +50,16 @@ const ProjectDetail = () => {
                 </div>
             </div>
 
-<hr class="mobile-only"></hr>
+            <hr class="mobile-only"></hr>
 
             {
                 project.video &&
-                <div className="video-container">
+                <div className="video-frame-container">
                     <h1 className="demo-title">Demo</h1>
-                    <YouTube videoId={project.video} opts={opts} />
+                    <div className="video-container">
+                        <YouTube videoId={project.video} opts={opts} />
+                    </div>
+
                 </div>
             }
 
