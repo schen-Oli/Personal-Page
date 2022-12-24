@@ -71,7 +71,7 @@ let other_internships = [
         abbr : "ncc",
         time : "Jan. 2017 - Jan. 2018",
         title : "Marketing Intern",
-        location : "Zhejiang, China",
+        location : "Remote",
         details : [
             "Translated over 20 awarded short films of Nottingham International Microfilm Festival to Chinese and added subtitles using Adobe Premiere.",
             "Managed the official account of Nottingham City Council on Youku and iQiyi.",
