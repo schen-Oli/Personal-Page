@@ -51,6 +51,7 @@ let projects = [
         skills: ["C#", "Unity", "Game Development"],
         time: "Aug. 2021 – Dec. 2021",
         url: "https://github.com/Saki97/Project_Caelestis",
+        video: "LxHzWiBswjI",
         details: [
             "Caelestis is a 2D platformer that encourages players to follow the music beats and act. Every time the player hit the beat successfully, there will be some sort of reward.",
             "I developed a control system that allows the players to use various input devices, including a touch screen, keyboard, and gamepad.",
